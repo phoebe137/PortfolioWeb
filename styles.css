@@ -1,0 +1,761 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+body {
+background-color:;
+margin: 0;
+font-family: 'lato', sans-serif;
+}
+
+/*
+* {
+  outline: 1px solid lime;
+}
+*/
+
+.header {
+max-width: 960px;
+background-color:;
+height: 500px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.logo img {
+float: left;
+height: 30px;
+padding-top: 7px;
+padding-left: 180px;
+}
+
+.nav {
+max-width: 960px;
+margin-left: auto;
+margin-right: auto;
+height: 40px;
+}
+
+/*.name {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}*/
+
+.links1 {
+float: left;
+margin-top: 12px;
+font-size: .9rem;
+color: black;
+padding-right: 20px;
+}
+
+.links1 a {
+color: black;
+text-decoration: none;
+padding-left: 40px;
+padding-right: 40px;
+border-right: 1px solid black;
+}
+
+.links1 a:last-child {
+  border-right: none;
+}
+
+
+
+.links2 {
+float: right;
+margin-top: 12px;
+font-size: .9rem;
+color: black;
+padding-left: 50px;
+}
+
+.links2 a {
+color: black;
+text-decoration: none;
+padding-left: 40px;
+padding-right: 40px;
+border-right: 1px solid black;
+}
+
+
+.links2 a:last-child {
+  border-right: none;
+}
+
+.imagebox{
+}
+
+.shirt {
+  text-align: center;
+  padding: 5px 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.shirt img {
+  max-width: 960px;
+  width: 96%;
+  border-bottom:2px solid black;
+  border-top:2px solid black;
+
+}
+
+.shirt{
+  position:relative;
+  max-width: 960px;
+}
+
+.phoebe {
+position:absolute;
+bottom: 0;
+font-size:1.3rem;
+padding:10px 20px;
+width:100%;
+text-align:center;
+margin-bottom: 225px;
+letter-spacing: 7px;
+color: white;
+}
+
+.phoebe a{
+font-size:2rem;
+}
+
+
+.portfolio{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 925px;
+  height: 100px;
+}
+
+.portfoliotitle{
+  font-size: 1.5rem;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+
+.portfoliolinks {
+margin-top: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+font-size: 0.7rem;
+color: black;
+text-align: center;
+margin-top: 10px;
+/*
+border-bottom:2px solid black;
+border-top:2px solid black; */
+}
+
+
+.portfoliolinks a {
+color: black;
+text-decoration: none;
+padding-left: 30px;
+padding-right: 30px;
+ /*border-right: 1px solid black;*/
+}
+
+.portfoliolinks b {
+color: black;
+text-decoration: underline;
+padding-left: 30px;
+padding-right: 30px;
+ /*border-right: 1px solid black; */
+}
+
+
+.allitems {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+}
+
+/*  CODE FOR 'ALL ITEMS' PAGE */
+
+
+.photoimages {
+float: left;
+padding-bottom: 10px;
+padding-left: 20px;
+max-width: 310px;
+max-height: 150px;
+
+}
+
+.arms img {
+  float: left;
+  max-width: 280px;
+  padding-bottom: 10px;
+}
+
+
+
+.designimages {
+float: left;
+padding-bottom: 10px;
+max-width: 310px;
+max-height: 150px;
+padding-left: 20px;
+
+}
+
+.book img {
+  max-width: 280px;
+  padding-bottom: 10px;
+}
+
+
+.printimages {
+float: left;
+padding-bottom: 10px;
+max-width: 310px;
+max-height: 150px;
+padding-left: 20px;
+
+}
+
+.print img {
+  max-width: 280px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+
+
+/*  CODE FOR 'PRINTMAKING' PAGE */
+
+.printmakingrow1 {
+  float: left;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  max-width: 310px;
+  max-height: 150px;
+}
+
+.printmakingrow1info img {
+  max-width: 280px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+
+.printmakingrow2 {
+  float: left;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  max-width: 310px;
+  max-height: 150px;
+}
+
+.printmakingrow2info img {
+  max-width: 280px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+
+.printmakingrow3 {
+  float: left;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  max-width: 310px;
+  max-height: 150px;
+}
+
+.printmakingrow3info img {
+  max-width: 280px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+/*.photoimages img {
+float: left;
+padding: 20px 0px;
+max-width: 200px;
+max-height: 150px
+ }*/
+
+
+
+/*  CODE FOR 'PHOTGRAPHY' PAGE */
+/*
+.photographyrow1 {
+  float:;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  max-width: 960px;
+  max-height: 100px;
+}
+
+.photographyrow1info img {
+  max-width: 280px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+
+.photographyrow2 {
+  float: left;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  max-width: 960px;
+  max-height: 150px;
+}
+
+.photographyrow2info img {
+  max-width: 280px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+
+.photographyrow3 {
+  float: left;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  max-width: 960px;
+  max-height: 150px;
+}
+
+.photographyrow3info img {
+  max-width: 280px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+*/
+
+/* NEW PHOTOGRAPHY CODE */
+
+/*first row in box*/
+.photographyrow1 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  width: 960px;
+  height: 320px;
+  float: left;
+}
+
+.photographyrow1info img {
+  max-height:320px;
+  padding-bottom: 10px;
+  padding-right: 22px;
+  float: left;
+}
+
+
+/* second row in box */
+
+.photographyrow2 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  width: 960px;
+  height: 440px;
+  float: left;
+}
+
+.leftbox {
+  padding-bottom: 10px;
+  padding-left: 20px;
+  width:557px;
+  height: 440px;
+  float: left;
+  padding-top: 10px;
+}
+
+.photographyrow2info img {
+  max-height: 210px;
+  padding-bottom: 10px;
+  float: left;
+  padding-right: 16px;
+}
+
+.photographyrow2infob img {
+  max-height: 210px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  float: left;
+}
+
+
+.photographyrow2info_lastimage img{
+  padding-bottom: 10px;
+  padding-right: 22px;
+  float: left;
+  height: 430px;
+  padding-top: 10px;
+}
+
+.photography3 {
+padding-left: 20px;
+max-width: 350px;
+height: 600px;
+float: left;
+padding-right: 7px;
+padding-top: 10px
+}
+
+.photography3 img {
+width: 350px;
+padding-bottom: 12px;
+}
+
+
+.photographybox2info{
+max-width: 310px;
+float: left;
+height: 430px;
+padding-right: 10px;
+padding-left: 10px;
+padding-top: 10px;
+}
+
+.photographybox2info img {
+float: left;
+height: 430px;
+}
+
+
+
+.lastphotographyimage img {
+max-width: 550px;
+float: left;
+padding-top: 20px;
+padding-left: 10px;
+}
+
+
+/* CONTACT PAGE STARTS */
+
+
+.CONTACT{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.contacttitle{
+  font-size: 1.5rem;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.email {
+font-size: .9rem;
+color: black;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+padding-bottom: 20px;
+}
+
+.email a {
+font-size: .9rem;
+color: black;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+text-decoration: underline;
+}
+
+.contactimage img {
+
+height: 400px;
+float: left;
+padding-right: 10px;
+text-align: left;
+padding-left: 20px;
+padding-top: 15px;
+}
+
+.GETINTOUCH {
+  font-size: 1.3rem;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+
+/* contactform */
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 18px;
+    background-color: rgb(233, 233, 233);
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* button */
+
+input[type=submit] {
+    background-color: #grey;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 1px;
+    cursor: default;
+}
+
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+.container {
+  border-radius: 1px;
+    border-width: thin;
+    /* background-color: rgb(178, 176, 176); */
+    padding: 10px;
+    width: 500px;
+    padding-left: 10px;
+    float: left;
+}
+
+
+
+/* ABOUT PAGE STARTS */
+
+.collage img {
+max-width: 400px;
+float: left;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-top: 20px;
+}
+
+
+.About {
+max-width: 960px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.portfoliotitle{
+padding-bottom: 20px;
+/* border-bottom:2px solid black; */
+
+}
+
+.aboutcontainer {
+max-width: 500px;
+/* background-color: rgb(223, 223, 223); */
+height: 340px;
+color: black;
+float: left;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 20px;
+border: 1px solid black;
+box-sizing: border-box;
+
+}
+
+
+
+/* DESIGN PAGE STARTS */
+
+
+.designline1 {
+max-width: 960px;
+height: 335px;
+padding-left: 20px;
+}
+
+.designline1 img {
+height: 335px;
+padding-bottom: 15px;
+float: left;
+padding-right: 17px;
+}
+
+.designline2 {
+max-width: 960px;
+padding-left: 20px;
+padding-bottom: 20px;
+}
+
+.designimage0 img {
+width: 293px;
+float: left;
+padding-right: 17px;
+padding-bottom: 20px;
+
+}
+
+/* ABOUT 2 */
+
+.About {
+max-width: 960px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.portfoliotitle{
+padding-bottom: 20px;
+/* border-bottom:2px solid black; */
+}
+
+
+.background {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.background img {
+  max-width: 960px;
+  width: 80%;
+
+
+}
+
+.background{
+  position:relative;
+  max-width: 960px;
+}
+
+.text {
+position:absolute;
+bottom: 0;
+font-size:1.1rem;
+width:100%;
+margin-bottom: 250px;
+color: black;
+float: left;
+text-align: left;
+padding-left: 280px;
+
+}
+
+.text a{
+font-size:1rem;
+padding-bottom: 30px;
+float: left;
+text-align: left;
+}
+
+
+.lines {
+position:absolute;
+bottom: 0;
+font-size:1.1rem;
+width:100%;
+margin-bottom: 250px;
+color: black;
+float: left;
+text-align: left;
+padding-left: 420px;
+}
+
+.lines a{
+font-size:1rem;
+padding-bottom: 30px;
+float: left;
+text-align: left;
+}
+
+
+.ok {
+  position:absolute;
+  bottom: 0;
+  font-size:1rem;
+  width:100%;
+  margin-bottom: 180px;
+  color: black;
+  float: left;
+  text-align: left;
+  padding-left:470px;
+  width: 300px;
+}
+
+.ok a{
+  font-size:1rem;
+  padding-bottom: 30px;
+  float: left;
+  text-align: left;
+  width: 50px;
+}
+
+
+/* about page2 */
+.aboutext{
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+.leftrow {
+padding-left: 200px;
+padding-bottom: 10px;
+float: left;
+width: 100px;
+
+}
+
+.middlerow {
+float: left;
+width: 20px;
+font-size: 1rem;
+padding-left: 50px;
+}
+
+.rightrow {
+float: left;
+width: 400px;
+padding-left: 50px;
+}
+
+/* OTHER pAGE STARTS - FUTURE WORK */
+
+.collage {
+max-width: 960px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+
+.collage img {
+  width: 420px;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  }
+
+  .collage2 img {
+  width: 500px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    }
+
+
+
+    /* PRINTMAKING 2 */
+
+    .printmaking1 {
+
+
+    }
