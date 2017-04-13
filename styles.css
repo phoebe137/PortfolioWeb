@@ -46,12 +46,7 @@ margin-right: auto;
 height: 40px;
 }
 
-/*.name {
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 1.2rem;
-  margin-top: 10px;
-}*/
+
 
 .links1 {
 float: left;
@@ -96,8 +91,6 @@ border-right: 1px solid black;
   border-right: none;
 }
 
-.imagebox{
-}
 
 .shirt {
   text-align: center;
@@ -189,55 +182,6 @@ padding-right: 30px;
   max-width: 960px;
 }
 
-/*  CODE FOR 'ALL ITEMS' PAGE - ISNT HERE ANYMORE*/
- /*
-
-.photoimages {
-float: left;
-padding-bottom: 10px;
-padding-left: 20px;
-max-width: 310px;
-max-height: 150px;
-
-}
-
-.arms img {
-  float: left;
-  max-width: 280px;
-  padding-bottom: 10px;
-}
-
-
-
-.designimages {
-float: left;
-padding-bottom: 10px;
-max-width: 310px;
-max-height: 150px;
-padding-left: 20px;
-
-}
-
-.book img {
-  max-width: 280px;
-  padding-bottom: 10px;
-}
-
-
-.printimages {
-float: left;
-padding-bottom: 10px;
-max-width: 310px;
-max-height: 150px;
-padding-left: 20px;
-
-}
-
-.print img {
-  max-width: 280px;
-  padding-bottom: 10px;
-  padding-right: 20px;
-}  */
 
 
 /*  CODE FOR 'PRINTMAKING' PAGE */
@@ -283,59 +227,7 @@ padding-left: 20px;
   padding-bottom: 10px;
   padding-right: 20px;
 }
-/*.photoimages img {
-float: left;
-padding: 20px 0px;
-max-width: 200px;
-max-height: 150px
- }*/
 
-
-
-/*  CODE FOR 'PHOTGRAPHY' PAGE */
-/*
-.photographyrow1 {
-  float:;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  max-width: 960px;
-  max-height: 100px;
-}
-
-.photographyrow1info img {
-  max-width: 280px;
-  padding-bottom: 10px;
-  padding-right: 20px;
-}
-
-.photographyrow2 {
-  float: left;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  max-width: 960px;
-  max-height: 150px;
-}
-
-.photographyrow2info img {
-  max-width: 280px;
-  padding-bottom: 10px;
-  padding-right: 20px;
-}
-
-.photographyrow3 {
-  float: left;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  max-width: 960px;
-  max-height: 150px;
-}
-
-.photographyrow3info img {
-  max-width: 280px;
-  padding-bottom: 10px;
-  padding-right: 20px;
-}
-*/
 
 /* NEW PHOTOGRAPHY CODE */
 
@@ -480,7 +372,6 @@ text-decoration: underline;
 }
 
 .contactimage img {
-
 height: 400px;
 float: left;
 padding-right: 10px;
@@ -496,30 +387,31 @@ padding-top: 15px;
   padding-top: 5px;
 }
 
-/* contactform */
+/* CONTACT FORM */
 
 
 input[type=text], select, textarea {
-    width: 100%;
-    padding: 18px;
-    background-color: rgb(233, 233, 233);
+  width: 100%;
+  padding: 18px;
+  background-color: rgb(233, 233, 233);
     border: 1px solid #ccc;
-    border-radius: 1px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+  border-radius: 1px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
 /* button and the buttton highlight*/
 
 input[type=submit] {
-    background-color: #grey;
-    color: white;
-    padding: 12px 20px;
-    border: none;
+  border: none;
     border-radius: 1px;
     cursor: default;
+  background-color: #grey;
+  color: white;
+  padding: 12px 20px;
+
 }
 
 
@@ -530,7 +422,6 @@ input[type=submit]:hover {
 .container {
   border-radius: 1px;
     border-width: thin;
-    /* background-color: rgb(178, 176, 176); */
     padding: 10px;
     width: 500px;
     padding-left: 10px;
@@ -559,7 +450,7 @@ margin-right: auto;
 
 .portfoliotitle{
 padding-bottom: 20px;
-/* border-bottom:2px solid black; */
+
 
 }
 
@@ -606,7 +497,6 @@ width: 293px;
 float: left;
 padding-right: 17px;
 padding-bottom: 20px;
-
 }
 
 
@@ -620,8 +510,9 @@ margin-right: auto;
 }
 
 .design1 img {
-height: 200px;
+width: 400px;
 float: left;
+text-align: left;
 }
 
 /* ABOUT 2 */
