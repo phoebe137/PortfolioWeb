@@ -124,7 +124,7 @@ color: white;
 font-size:2rem;
 }
 
-
+/* PORTFOLIO STARTS */
 .portfolio{
   margin-left: auto;
   margin-right: auto;
@@ -178,8 +178,8 @@ padding-right: 30px;
   max-width: 960px;
 }
 
-/*  CODE FOR 'ALL ITEMS' PAGE */
-
+/*  CODE FOR 'ALL ITEMS' PAGE - ISNT HERE ANYMORE*/
+ /*
 
 .photoimages {
 float: left;
@@ -226,7 +226,7 @@ padding-left: 20px;
   max-width: 280px;
   padding-bottom: 10px;
   padding-right: 20px;
-}
+}  */
 
 
 /*  CODE FOR 'PRINTMAKING' PAGE */
@@ -500,7 +500,7 @@ input[type=text], select, textarea {
     resize: vertical;
 }
 
-/* button */
+/* button and the buttton highlight*/
 
 input[type=submit] {
     background-color: #grey;
@@ -598,7 +598,23 @@ padding-bottom: 20px;
 
 }
 
+
+.designline3 {
+max-width: 960px;
+padding-left: 20px;
+padding-bottom: 20px;
+padding-top: 30px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.design1 img {
+height: 200px;
+float: left;
+}
+
 /* ABOUT 2 */
+
 
 .About {
 max-width: 960px;
@@ -618,11 +634,10 @@ padding-bottom: 20px;
   margin-left: auto;
 }
 
+
 .background img {
   max-width: 960px;
   width: 80%;
-
-
 }
 
 .background{
@@ -640,7 +655,6 @@ color: black;
 float: left;
 text-align: left;
 padding-left: 280px;
-
 }
 
 .text a{
@@ -698,8 +712,6 @@ text-align: left;
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
-
-
 }
 
 .leftrow {
@@ -753,9 +765,15 @@ margin-right: auto;
 
 
 
-    /* PRINTMAKING 2 */
+/* PRINTMAKING 2 */
 
-    .printmaking1 {
+.printmaking1 {
+max-width: 960px;
+padding-left: 20px;
+}
 
+.printmaking0 img {
+width: 350px;
+padding-bottom: 10px;
 
-    }
+}
