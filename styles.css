@@ -7,6 +7,17 @@ margin: 0;
 font-family: 'lato', sans-serif;
 }
 
+
+.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
 /*
 * {
   outline: 1px solid lime;
